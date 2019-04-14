@@ -17,7 +17,7 @@ To start javascript assignments please follow the next steps:
 
 ### How to fork this repo
 * Click the **Fork** button at the top-right corner of this page and the repository will be copied to your own account.
-* Run `git clone https://github.com/<your-account>/js-assignments.git` from command line to download the repo.
+* Run `git clone https://github.com/Christina-Ilyushono/js-assignments.git` from command line to download the repo.
 
 ### How to setup work environment
 * Make sure that [Nodejs](https://nodejs.org/en/download/stable/) is installed.
