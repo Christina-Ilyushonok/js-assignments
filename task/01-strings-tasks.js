@@ -22,9 +22,8 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2) {
-    return  ` $ { value1 } $ { value2 } ` ;
+    return  `${value1} ${ value2 }` ;
 }
-
 
 /**
  * Returns the length of given string.
@@ -69,9 +68,9 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
 function extractNameFromTemplate(value) {
-    return value.substring(0, value.length - 1);
+    let array = value.split(' ')
+    return `${array[1]} ${array[2].slice(0, -1)}`
 }
-
 
 /**
  * Returns a first char of the given string.
@@ -251,10 +250,10 @@ function encodeToRot13(str) {
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-function isString(value) {
-    return typeof value === value instanceof String || value === 'string';
-}
 
+function isString(value) {
+    return typeof(value) == 'string' || value instanceof String
+}
 
 /**
  * Returns playid card id.

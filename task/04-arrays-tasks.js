@@ -40,7 +40,7 @@ function findElement(arr, value) {
 
 function generateOdds(len) {
     let resArr = [];
-    for (let i = -1; result.length < len; resArr.push(i += 2));
+    for (let i = -1; resArr.length < len; resArr.push(i += 2));
     return resArr;
 }
 
