@@ -39,9 +39,9 @@ function findElement(arr, value) {
  */
 
 function generateOdds(len) {
-    let resArr = [];
-    for (let i = -1; resArr.length < len; resArr.push(i += 2));
-    return resArr;
+    var result = [];
+    for (let i = -1; result.length < len; result.push(i += 2));
+    return result
 }
 
 /* *
